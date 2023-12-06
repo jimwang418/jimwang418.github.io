@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Junxiang (Jim) Wang | 王俊翔",
-    "label": "Masters Student",
+    "label": "Masters Student, Johns Hopkins University",
     "picture": "https://github.com/jimwang418.png",
     "email": "jwang334@jhu.edu",
     "phone": "667-910-4102",
     "website": "https://jimwang418.github.io",
-    "summary": "I am a Masters student majoring in Robotics at Johns Hopkins University, currently applying for Ph.D. programs. I obtained my B.S. in Mechanical Engineering from JHU in 2023.<br><br>My research interest lies in robotics in general and creating more intelligent robotic systems. I am a research assistant in JHU's Laboratory for Computational Sensing and Robotics (LCSR), where I am fortunate to work with Prof. Peter Kazanzides, Prof. Iulian Iordachita, and Prof. Chien-Ming Huang.<br><br>In my freetime, I enjoy long-distance running (racing up to half-marathons), tennis, and photography.",
+    "summary": "I am a Robotics M.S.E. student at Johns Hopkins University, currently applying for Ph.D. programs. I obtained my B.S. in Mechanical Engineering from JHU in 2023.<br><br>I am interested in designing robots that exhibit safe and intelligent behaviors that are human-like and/or natural to humans interacting with the robot. I am a research assistant in JHU's Laboratory for Computational Sensing and Robotics (LCSR), where I am fortunate to work with Prof. Peter Kazanzides, Prof. Iulian Iordachita, and Prof. Chien-Ming Huang. My research efforts at LCSR span the fields of medical robotics and human-robot interaction, with current efforts focusing on motion prediction, learning-based control, and large language models.<br><br>In my free time, I enjoy long-distance running (racing up to half-marathons), tennis, and photography.",
     "location": { "address": "", "postalCode": "21218", "city": "Baltimore", "countryCode": "USA", "region": "Maryland" },
     "profiles": [
       { "network": "github", "username": "jimwang418", "url": "https://github.com/jimwang418" },
