@@ -20,7 +20,7 @@ Conventional voice assistants (VAs) suffer from the limitations of unable to und
 ## System structure
 We used Amazon Alexa as our VA platform, and incorporated ChatGPT 3.5 as the backend LLM through an Alexa skill and middleman API's. A system structure diagram is shown below.
 
-<img width="600px"
+<img width="800px"
      src="../resources/llmva/system-implementation.png">
 
 ## User study
@@ -29,7 +29,7 @@ We designed a user study where the participant would use the LLM-based interface
 2. **Creative planning**: Given a map of a section of a city, the participant is asked to plan a day of tourism.
 3. **Discussion with AI**: Given a topic, the participant would present their stance, and the VA would always be in opposition of the stance to continue the discussion. 
 
-<img width="600px"
+<img width="800px"
      src="../resources/llmva/tasks.png">
 
 We extracted different interaction patterns from the recorded videos, and demonstrated that our LLM-powered VA is able to facilitate smoother, more human-like interaction compared to conventional VAs.
