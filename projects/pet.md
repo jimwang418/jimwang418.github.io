@@ -24,7 +24,7 @@ The core of performing this motion compensation is naturally a measurement syste
      src="../resources/pet/system-cad.png">
 
 [^fn1]: Junxiang Wang, Ti Wu, Iulian I. Iordachita, and Peter Kazanzides. “Evaluation of a motion measurement system for PET imaging studies.” In IEEE Intl. Symp. on Medical Robotics (ISMR), Apr. 2022. 
-[^fn2]: Junxiang Wang, Ti Wu, Iulian I. Iordachita, and Peter Kazanzides. “Calibration and evaluation of a motion measurement system for PET imaging studies.” In J. of Medical Robotics Research (JMRR), vol. 8, 2023.
+[^fn2]: Junxiang Wang, Ti Wu, Iulian I. Iordachita, and Peter Kazanzides. “[Calibration and evaluation of a motion measurement system for PET imaging studies.](https://arxiv.org/pdf/2311.18009.pdf)” In J. of Medical Robotics Research (JMRR), vol. 8, 2023.
 
 ## Motion compensation [^fn3]
 The next step is putting this measurement system to use in guiding synchronous motion of two entities. I connected two UR robot arms with this string encoder system, with a UR3 mimicking the human subject's head and a UR5 mimicking the PET imaging device. The UR3 reproduces a trajectory of human head motion independently from everything else in the setup, the string encoder system senses this motion, the the UR5 uses the string encoder readings to move reactively. We call this process coarse motion compensation. Additionally, there is also a fine motion compensation process. In the actual PET imaging setup, this would be correcting for nonzero displacement of the string encoder system in the captured PET images. Instead of the radioactive setup with PET, we built an optical system for simulating a similar situation with four pairs of cameras and outward-facing laser diodes. 
@@ -46,4 +46,4 @@ The next step is putting this measurement system to use in guiding synchronous m
   </iframe>
 </div>
      
-[^fn3]: Junxiang Wang, Iulian I. Iordachita, and Peter Kazanzides. “Method for robotic motion compensation during PET imaging of mobile subjects.” In IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS), Oct. 2023.
+[^fn3]: Junxiang Wang, Iulian I. Iordachita, and Peter Kazanzides. “[Method for robotic motion compensation during PET imaging of mobile subjects.](https://arxiv.org/pdf/2311.17861.pdf)” In IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS), Oct. 2023.
