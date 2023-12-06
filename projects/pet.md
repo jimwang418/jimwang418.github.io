@@ -21,7 +21,7 @@ Imaging of human brain activity during locomotion can be studied by neuroscienti
 ## String encoder measurement system [^fn1][^fn2]
 The core of performing this motion compensation is naturally a measurement system that can provide robust and accurate readings of the pose between the subject's head and the imaging device. We developed a mechanical measurement system with six draw-wire string encoders arranged in a Stewart platform configuration. This system can achieve a translational measurement accuracy of around 0.2mm for a &plusmn;10mm motion around the default configuration of the Stewart platform. Considering rotational effects, this accuracy stays within 0.5mm. I developed an automatic kinematic calibration process for the device to adjust for the small deviations from the designed parameters due to manufacturing. I also performed the extensive accuracy evaluation that led to the results above.
 
-<img width="1000px"
+<img width="1100px"
      src="../resources/pet/system-cad.png">
 
 [^fn1]: Junxiang Wang, Ti Wu, Iulian I. Iordachita, and Peter Kazanzides. “Evaluation of a motion measurement system for PET imaging studies.” *2022 IEEE Intl. Symp. on Medical Robotics (ISMR)*, GA, USA, 2022. 
