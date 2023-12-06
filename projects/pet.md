@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: resources/System.jpg
-title: "Robot-assisted PET imaging system with motion measurement and compensation."
+title: "Robot-assisted PET imaging system"
 date: 2021-Present
 published: true
 labels:
