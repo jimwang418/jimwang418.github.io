@@ -34,5 +34,15 @@ The next step is putting this measurement system to use in guiding synchronous m
 
 <img width="500px"
      src="../resources/pet/laser-camera.png">
+
+<div class="ratio ratio-16x9 my-4">
+  <iframe width="560"
+          height="315"
+          src="https://www.youtube.com/embed/g7dRkABSc-8?si=JakIUqeka9-b4GvC"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+  </iframe>
+</div>
      
 [^fn3]: Junxiang Wang, Iulian I. Iordachita, and Peter Kazanzides. “Method for robotic motion compensation during PET imaging of mobile subjects.” In IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS), Oct. 2023.
