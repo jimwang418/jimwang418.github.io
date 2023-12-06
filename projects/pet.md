@@ -3,7 +3,7 @@ layout: project
 type: project
 image: resources/pet/system.jpg
 title: "Robot-assisted PET imaging system"
-date: 2021-Present
+date: 2021&ndash;Present
 order: 1
 published: true
 labels:
