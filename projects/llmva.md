@@ -34,3 +34,5 @@ We designed a user study where the participant would use the LLM-based interface
      src="../resources/llmva/tasks.png">
 
 We extracted different interaction patterns from the recorded videos, and demonstrated that our LLM-powered VA is able to facilitate smoother, more human-like interaction compared to conventional VAs.
+
+## References
