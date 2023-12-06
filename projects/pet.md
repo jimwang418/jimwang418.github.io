@@ -39,6 +39,7 @@ The next step is putting this measurement system to use in guiding synchronous m
   <iframe width="560"
           height="315"
           src="https://www.youtube.com/embed/g7dRkABSc-8?si=JakIUqeka9-b4GvC"
+          title="Motion compensation for robot-assisted PET imaging"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen>
