@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: resources/System.jpg
 title: "Robot-assisted PET imaging system with motion measurement and compensation."
 date: 2021-Present
 published: true
