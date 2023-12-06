@@ -21,7 +21,7 @@ Imaging of human brain activity during locomotion can be studied by neuroscienti
 ## String encoder measurement system [^fn1][^fn2]
 The core of performing this motion compensation is naturally a measurement system that can provide robust and accurate readings of the pose between the subject's head and the imaging device. We developed a mechanical measurement system with six draw-wire string encoders arranged in a Stewart platform configuration. This system can achieve a translational measurement accuracy of around 0.2mm for a &plusmn;10mm motion around the default configuration of the Stewart platform. Considering rotational effects, this accuracy stays within 0.5mm. I developed an automatic kinematic calibration process for the device to adjust for the small deviations from the designed parameters due to manufacturing. I also performed the extensive accuracy evaluation that led to the results above.
 
-<img width="400px"
+<img width="1000px"
      src="../resources/pet/system-cad.png">
 
 [^fn1]: Junxiang Wang, Ti Wu, Iulian I. Iordachita, and Peter Kazanzides. “Evaluation of a motion measurement system for PET imaging studies.” *2022 IEEE Intl. Symp. on Medical Robotics (ISMR)*, GA, USA, 2022. 
@@ -30,10 +30,10 @@ The core of performing this motion compensation is naturally a measurement syste
 ## Motion compensation [^fn3]
 The next step is putting this measurement system to use in guiding synchronous motion of two entities. I connected two UR robot arms with this string encoder system, with a UR3 mimicking the human subject's head and a UR5 mimicking the PET imaging device. The UR3 reproduces a trajectory of human head motion independently from everything else in the setup, the string encoder system senses this motion, the the UR5 uses the string encoder readings to move reactively. We call this process coarse motion compensation. Additionally, there is also a fine motion compensation process. In the actual PET imaging setup, this would be correcting for nonzero displacement of the string encoder system in the captured PET images. Instead of the radioactive setup with PET, we built an optical system for simulating a similar situation with four pairs of cameras and outward-facing laser diodes. 
 
-<img width="500px"
+<img width="600px"
      src="../resources/pet/system-labeled.png">
 
-<img width="500px"
+<img width="600px"
      src="../resources/pet/laser-camera.png">
 
 <div class="ratio ratio-16x9 my-4">
