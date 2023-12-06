@@ -48,3 +48,5 @@ The next step is putting this measurement system to use in guiding synchronous m
 </div>
      
 [^fn3]: Junxiang Wang, Iulian I. Iordachita, and Peter Kazanzides. “[Method for robotic motion compensation during PET imaging of mobile subjects.](https://arxiv.org/pdf/2311.17861.pdf)” *2023 IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)*, MI, USA, 2023.
+
+## References
