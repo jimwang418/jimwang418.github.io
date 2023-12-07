@@ -24,7 +24,7 @@ The core of performing this motion compensation is naturally a measurement syste
 <img width="1100px"
      src="../resources/pet/system-cad.png">
 
-[^fn1]: Junxiang Wang, Ti Wu, Iulian I. Iordachita, and Peter Kazanzides. “Evaluation of a motion measurement system for PET imaging studies.” *2022 IEEE Intl. Symp. on Medical Robotics (ISMR)*, GA, USA, 2022. 
+[^fn1]: Junxiang Wang, Ti Wu, Iulian I. Iordachita, and Peter Kazanzides. “[Evaluation of a motion measurement system for PET imaging studies.](https://arxiv.org/pdf/2311.17863.pdf)” *2022 IEEE Intl. Symp. on Medical Robotics (ISMR)*, GA, USA, 2022. 
 [^fn2]: Junxiang Wang, Ti Wu, Iulian I. Iordachita, and Peter Kazanzides. “[Calibration and evaluation of a motion measurement system for PET imaging studies.](https://arxiv.org/pdf/2311.18009.pdf)” *J. of Medical Robotics Research (JMRR)*, vol. 8, no. 01n02, 2023.
 
 ## Motion compensation [^fn3]
