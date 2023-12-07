@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Robot-assisted PET imaging system | Junxiang (Jim) Wang 王俊翔">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/jimwang418.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Junxiang (Jim) Wang 王俊翔">
+    <meta property="og:url" content="https://jimwang418.github.io/projects/pet.html">
+    <meta property="og:title" content="Robot-assisted PET imaging system | Junxiang (Jim) Wang 王俊翔">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/jimwang418.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Robot-assisted PET imaging system | Junxiang (Jim) Wang 王俊翔</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Junxiang (Jim) Wang | 王俊翔</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#papers">Papers</a>
+        <a class="nav-link" href="/resources/Junxiang Wang Curriculum Vitae.pdf">CV</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Robot-assisted PET imaging system</h1>
+ <h2 id="background">Background</h2>
+<p>Imaging of human brain activity during locomotion can be studied by neuroscientists to help diagnose different motion disabilities. However, current attempts at performing such imaging either are not real-time or fail to allow natural movements from the subjects–they have to accommodate their motion to some spatially-fixed imager due to its weight (cannot be lighter than ~20kg). Therefore, we are designing a system where a robot would support the weight of the imager, and as the subject’s head moves around when walking on a treadmill, the robot would sense this motion and follow it with low latency, under a 18mm clearance.</p>
+
+<h2 id="string-encoder-measurement-system-">String encoder measurement system <sup id="fnref:fn1" role="doc-noteref"><a href="#fn:fn1" class="footnote" rel="footnote">1</a></sup><sup id="fnref:fn2" role="doc-noteref"><a href="#fn:fn2" class="footnote" rel="footnote">2</a></sup></h2>
+<p>The core of performing this motion compensation is naturally a measurement system that can provide robust and accurate readings of the pose between the subject’s head and the imaging device. We developed a mechanical measurement system with six draw-wire string encoders arranged in a Stewart platform configuration. This system can achieve a translational measurement accuracy of around 0.2mm for a ±10mm motion around the default configuration of the Stewart platform. Considering rotational effects, this accuracy stays within 0.5mm. I developed an automatic kinematic calibration process for the device to adjust for the small deviations from the designed parameters due to manufacturing. I also performed the extensive accuracy evaluation that led to the results above.</p>
+
+<p><img width="1100px" src="../resources/pet/system-cad.png" /></p>
+
+<h2 id="motion-compensation-">Motion compensation <sup id="fnref:fn3" role="doc-noteref"><a href="#fn:fn3" class="footnote" rel="footnote">3</a></sup></h2>
+<p>The next step is putting this measurement system to use in guiding synchronous motion of two entities. I connected two UR robot arms with this string encoder system, with a UR3 mimicking the human subject’s head and a UR5 mimicking the PET imaging device. The UR3 reproduces a trajectory of human head motion independently from everything else in the setup, the string encoder system senses this motion, the the UR5 uses the string encoder readings to move reactively. We call this process coarse motion compensation. Additionally, there is also a fine motion compensation process. In the actual PET imaging setup, this would be correcting for nonzero displacement of the string encoder system in the captured PET images. Instead of the radioactive setup with PET, we built an optical system for simulating a similar situation with four pairs of cameras and outward-facing laser diodes.</p>
+
+<p><img width="600px" src="../resources/pet/system-labeled.png" /></p>
+
+<p><img width="600px" src="../resources/pet/laser-camera.png" /></p>
+
+<div class="ratio ratio-16x9 my-4">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/g7dRkABSc-8?si=JakIUqeka9-b4GvC" title="Motion compensation for robot-assisted PET imaging" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+  </iframe>
+</div>
+
+<h2 id="references">References</h2>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:fn1" role="doc-endnote">
+      <p>Junxiang Wang, Ti Wu, Iulian I. Iordachita, and Peter Kazanzides. “<a href="https://arxiv.org/pdf/2311.17863.pdf">Evaluation of a motion measurement system for PET imaging studies.</a>” <em>2022 IEEE Intl. Symp. on Medical Robotics (ISMR)</em>, GA, USA, 2022. <a href="#fnref:fn1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:fn2" role="doc-endnote">
+      <p>Junxiang Wang, Ti Wu, Iulian I. Iordachita, and Peter Kazanzides. “<a href="https://arxiv.org/pdf/2311.18009.pdf">Calibration and evaluation of a motion measurement system for PET imaging studies.</a>” <em>J. of Medical Robotics Research (JMRR)</em>, vol. 8, no. 01n02, 2023. <a href="#fnref:fn2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:fn3" role="doc-endnote">
+      <p>Junxiang Wang, Iulian I. Iordachita, and Peter Kazanzides. “<a href="https://arxiv.org/pdf/2311.17861.pdf">Method for robotic motion compensation during PET imaging of mobile subjects.</a>” <em>2023 IEEE/RSJ Intl. Conf. on Intelligent Robots and Systems (IROS)</em>, MI, USA, 2023. <a href="#fnref:fn3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+{
+  "basics": {
+    "name": "Junxiang (Jim) Wang | 王俊翔",
+    "label": "Masters Student, Johns Hopkins University",
+    "picture": "https://github.com/jimwang418.png",
+    "email": "jwang334@jhu.edu",
+    "phone": "667-910-4102",
+    "website": "https://jimwang418.github.io",
+    "summary": "I am a Robotics M.S.E. student at Johns Hopkins University, currently applying for Ph.D. programs. I am a research assistant in JHU's Laboratory for Computational Sensing and Robotics (LCSR), where I am fortunate to work with Prof. Peter Kazanzides, Prof. Iulian Iordachita, and Prof. Chien-Ming Huang. I obtained my B.S. in Mechanical Engineering from JHU in 2023.<br><br>I am interested in designing robots that exhibit safe and intelligent behaviors that are human-like and/or natural to humans interacting with the robot. My research efforts at LCSR span the fields of medical robotics and human-robot interaction, with current efforts focusing on motion prediction, learning-based control, and large language models.<br><br>In my free time, I enjoy long-distance running (racing up to half-marathons), tennis, and photography.",
+    "location": { "address": "", "postalCode": "21218", "city": "Baltimore", "countryCode": "USA", "region": "Maryland" },
+    "profiles": [
+      { "network": "github", "username": "jimwang418", "url": "https://github.com/jimwang418" },
+      { "network": "linkedin", "username": "junxiang-jim-wang", "url": "https://www.linkedin.com/in/junxiang-jim-wang/" }
+    ]
+  },
+  "interests": [
+    { "name": "Intelligent Robot Behaviors" },
+    { "name": "Medical Robotics" },
+    { "name": "Human-Robot Interaction" },
+    { "name": "Learning-Based Control" }
+  ],
+  "education": [
+    {
+      "institution": "Johns Hopkins University, Baltimore, MD",
+      "area": "Robotics",
+      "studyType": "M.S.E.",
+      "startDate": "2022-01",
+      "endDate": "Present",
+      "gpa": "4.0",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "Johns Hopkins University, Baltimore, MD",
+      "area": "Mechanical Engineering",
+      "studyType": "B.S.",
+      "startDate": "2019-08",
+      "endDate": "2023-05",
+      "gpa": "3.93",
+      "courses": [
+        "President, Pi Tau Sigma Honor Society",
+        "Member, Tau Beta Pi Honor Society"
+      ]
+    }
+  ],
+  "publications": [
+
+  ],
+  "work": [
+    {
+      "company": "Johns Hopkins University",
+      "position": "Teaching Assistant",
+      "website": "",
+      "startDate": "2022-01",
+      "endDate": "Present",
+      "summary": "I have been serving as a teaching assistant for various courses offered at Johns Hopkins University:",
+      "highlights": [
+        "Spring 2022 - Electronics and Instrumentation",
+        "Summer 2022 - Explore Engineering Innovation",
+        "Fall 2022 - Robot Sensors & Actuators",
+        "Spring 2023--Fall 2023 - Robot Devices, Kinematics, Dynamics, and Control",
+        "My responsibilities include grading, holding office hours, and (for Spring 2022 and Fall 2022) running weekly lab sessions that guide  students through practical applications of the contents covered in class."
+      ]
+    },
+    {
+      "company": "CRRC Dalian Co. Ltd.",
+      "position": "Engineering Intern",
+      "website": "",
+      "startDate": "2022-05",
+      "endDate": "2022-08",
+      "summary": "Assisted with the design of heat exchangers for high-speed electric locomotives",
+      "highlights": [
+        "Analyzed flow properties within air-cooled and water-cooled heat exchangers with CFD analysis",
+        "Conducted experiments for the potential use of phase-change materials in locomotive break plate"
+      ]
+    },
+    {
+      "company": "China Academy of Railway Sciences",
+      "position": "Engineering Analysis Intern",
+      "website": "",
+      "startDate": "2021-06",
+      "endDate": "2021-09",
+      "summary": "",
+      "highlights": [
+        "Learned the functionalities and applications of the Abaqus/CAE software under various circumstances",
+        "Applied the software to perform finite element analysis on locomotive parts, including an improved brake plate design for better durability"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Johns Hopkins Robotics Club",
+      "website": "",
+      "position": "Member, Navigation Team",
+      "startDate": "2021-09",
+      "endDate": "2022-05",
+      "summary": "Contributed to the design of an autonomous food delivery robot that aims to perform on-campus to-building delivery from restaurants in the vicinity",
+      "highlights": [
+        "Primarily worked on the localization component with Kalmer filter",
+        "Handled data reading and processing from a lidar, as well as its integration with the rest of the system"
+      ]
+    },
+    {
+      "organization": "Blue Jay Racing",
+      "website": "",
+      "position": "Member",
+      "startDate": "2019-08",
+      "endDate": "2019-12",
+      "summary": "Contributed to designing an off-road, all-wheel-drive vehicle for a Baja SAE national competition",
+      "highlights": [
+        "Assisted in the CAD design of the steering wheel and the brake plate of the vehicle"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Student Paper",
+      "date": "2022",
+      "awarder": "2022 International Symposium on Medical Robotics (ISMR)",
+      "summary": "My presentation of my paper 'Evaluation of a motion measurement system for PET imaging studies' won the Best Student Paper award, selected among all papers with student first-authors."
+    },
+    {
+      "title": "Honorable mention",
+      "date": "2022",
+      "awarder": "CRA outstanding undergraduate researcher award",
+      "summary": "This award recognizes undergraduate students who show outstanding research potential in an area of computing research."
+    },
+    {
+      "title": "Charles A. Miller Award",
+      "date": "2023",
+      "awarder": "Johns Hopkins University, Mechanical Engineering Department",
+      "summary": "This award recognizes outstanding academic achievement of an undergraduate JHU student in Mechanical Engineering. (2/40)"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": [ "MATLAB", "C", "C++", "Python", "Java" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "ROS", "Ubuntu", "SOLIDWORKS", "Abaqus", "COMSOL" ]
+    }
+  ]
+}
