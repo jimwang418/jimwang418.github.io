@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Junxiang (Jim) Wang | 王俊翔",
-    "label": "Masters Student, Johns Hopkins University",
+    "label": "Ph.D. student, Carnegie Mellon University",
     "picture": "https://github.com/jimwang418.png",
-    "email": "jwang334@jhu.edu",
+    "email": "wjc@cmu.edu",
     "phone": "667-910-4102",
     "website": "https://jimwang418.github.io",
-    "summary": "I am a Robotics M.S.E. student at Johns Hopkins University, currently applying for Ph.D. programs. I am a research assistant in JHU's Laboratory for Computational Sensing and Robotics (LCSR), where I am fortunate to work with Prof. Peter Kazanzides, Prof. Iulian Iordachita, and Prof. Chien-Ming Huang. I obtained my B.S. in Mechanical Engineering from JHU in 2023.<br><br>I am interested in designing robots that exhibit safe and intelligent behaviors that are human-like and/or natural to humans interacting with the robot. My research efforts at LCSR span the fields of medical robotics and human-robot interaction, with current efforts focusing on motion prediction, learning-based control, and large language models.<br><br>In my free time, I enjoy long-distance running (racing up to half-marathons), tennis, and photography.",
+    "summary": "I am an incoming Ph.D. student at Carnegie Mellon University. I obtained my M.S.E. in Robotics and B.S. in Mechanical Engineering from Johns Hopkins University, where I'm fortunate to work with Prof. Peter Kazanzides, Prof. Iulian Iordachita, and Prof. Chien-Ming Huang.<br><br>I am interested in designing robots that exhibit safe and intelligent behaviors that are human-like and/or natural to humans interacting with the robot.<br><br>In my free time, I enjoy long-distance running (racing up to half-marathons), tennis, skiing, and photography.",
     "location": { "address": "", "postalCode": "21218", "city": "Baltimore", "countryCode": "USA", "region": "Maryland" },
     "profiles": [
       { "network": "github", "username": "jimwang418", "url": "https://github.com/jimwang418" },
@@ -21,11 +21,20 @@
   ],
   "education": [
     {
+      "institution": "Carnegie Mellon University, Pittsburgh, PA",
+      "area": "Robotics",
+      "studyType": "Ph.D.",
+      "startDate": "2024-08",
+      "endDate": "Present",
+      "courses": [
+      ]
+    },
+    {
       "institution": "Johns Hopkins University, Baltimore, MD",
       "area": "Robotics",
       "studyType": "M.S.E.",
       "startDate": "2022-01",
-      "endDate": "Present",
+      "endDate": "2024-05",
       "gpa": "4.0",
       "courses": [
       ]
@@ -52,8 +61,8 @@
       "position": "Teaching Assistant",
       "website": "",
       "startDate": "2022-01",
-      "endDate": "Present",
-      "summary": "I have been serving as a teaching assistant for various courses offered at Johns Hopkins University:",
+      "endDate": "2024-05",
+      "summary": "I served as a teaching assistant for various courses offered at Johns Hopkins University:",
       "highlights": [
         "Spring 2022 - Electronics and Instrumentation",
         "Summer 2022 - Explore Engineering Innovation",
