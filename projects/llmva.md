@@ -3,7 +3,7 @@ layout: project
 type: project
 image: resources/llmva/summary.JPG
 title: "LLM-powered voice assistants"
-date: 2023&ndash;Present
+date: 2023&ndash;2024
 order: 2
 published: true
 labels:
