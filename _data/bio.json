@@ -3,11 +3,11 @@
     "name": "Junxiang (Jim) Wang | 王俊翔",
     "label": "Ph.D. student, Carnegie Mellon University",
     "picture": "https://github.com/jimwang418.png",
-    "email": "wjc@cmu.edu",
+    "email": "wjx@cmu.edu",
     "phone": "667-910-4102",
     "website": "https://jimwang418.github.io",
-    "summary": "I am an incoming Ph.D. student at Carnegie Mellon University. I obtained my M.S.E. in Robotics and B.S. in Mechanical Engineering from Johns Hopkins University, where I'm fortunate to work with Prof. Peter Kazanzides, Prof. Iulian Iordachita, and Prof. Chien-Ming Huang.<br><br>I am interested in designing robots that exhibit safe and intelligent behaviors that are human-like and/or natural to humans interacting with the robot.<br><br>In my free time, I enjoy long-distance running (racing up to half-marathons), tennis, skiing, and photography.",
-    "location": { "address": "", "postalCode": "21218", "city": "Baltimore", "countryCode": "USA", "region": "Maryland" },
+    "summary": "I am a first-year Ph.D. student at Carnegie Mellon University, advised by Prof. Zackory Erickson. I obtained my B.S. in Mechanical Engineering and M.S.E. in Robotics from Johns Hopkins University, where I was fortunate to work with Prof. Peter Kazanzides, Prof. Iulian Iordachita, and Prof. Chien-Ming Huang.<br><br>I am interested in designing robots that exhibit safe and intelligent behaviors that are human-like and/or natural to humans interacting with the robot.<br><br>In my free time, I enjoy long-distance running (racing up to half-marathons), tennis, skiing, and photography.",
+    "location": { "address": "", "postalCode": "15213", "city": "Pittsburgh", "countryCode": "USA", "region": "Pennsylvania" },
     "profiles": [
       { "network": "github", "username": "jimwang418", "url": "https://github.com/jimwang418" },
       { "network": "linkedin", "username": "junxiang-jim-wang", "url": "https://www.linkedin.com/in/junxiang-jim-wang/" }
@@ -15,7 +15,7 @@
   },
   "interests": [
     { "name": "Intelligent Robot Behaviors" },
-    { "name": "Medical Robotics" },
+    { "name": "Assistive Robotics" },
     { "name": "Human-Robot Interaction" },
     { "name": "Learning-Based Control" }
   ],
