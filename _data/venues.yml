@@ -1,9 +1,22 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"ISMR 2025":
+  url: https://ismr.gatech.edu/2025/2025-welcome/
+  color: "#8A7E55"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ISMR 2022":
+  url: https://robomed.gatech.edu/2022-welcome/
+  color: "#8A7E55"
 
-"Vision":
-  color: "#009f36"
+"IROS 2023":
+  url: https://2023.ieee-iros.org/
+  color: "#064445"
+
+"IJHCS":
+  url: https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies
+  color: "#233265"
+
+"JMRR":
+  url: https://www.worldscientific.com/worldscinet/jmrr
+  color: "#052A62"
+
+"Under Review":
+  color: "#7C1817"
