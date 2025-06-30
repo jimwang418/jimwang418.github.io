@@ -32,5 +32,5 @@ I am broadly interested in human-robot interaction. Specifically, my work focuse
 Contact: `junxiang [at] cmu [dot] edu`
 
 <div style="text-align: center;">
-  <a href="https://scholar.google.com/citations?user=K7Zzm7YAAAAJ/">Google Scholar <i class="ai ai-google-scholar"></i></a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;<a href="https://github.com/jimwang418">GitHub <i class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/wang_junxiang_">X <i class="fab fa-x-twitter"></i></a>
+  <a href="https://scholar.google.com/citations?user=K7Zzm7YAAAAJ">Google Scholar <i class="ai ai-google-scholar"></i></a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;<a href="https://github.com/jimwang418">GitHub <i class="fab fa-github"></i></a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/wang_junxiang_">X <i class="fab fa-x-twitter"></i></a>
 </div>
