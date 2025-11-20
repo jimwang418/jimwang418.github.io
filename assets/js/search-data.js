@@ -28,8 +28,8 @@ ninja.data = [{
           section: "News",},{id: "news-dvrk-digital-twin-was-accepted-to-present-at-ismr-2025-in-atlanta-code-paper",
           title: 'dVRK digital twin was accepted to present at ISMR 2025 in Atlanta! (code...',
           description: "",
-          section: "News",},{id: "news-cori-was-accepted-to-corl-2025-in-seoul-korea-paper-code-coming-soon",
-          title: 'CoRI was accepted to CoRL 2025 in Seoul, Korea! (paper , code coming...',
+          section: "News",},{id: "news-cori-was-accepted-to-corl-2025-in-seoul-korea-code-paper",
+          title: 'CoRI was accepted to CoRL 2025 in Seoul, Korea! (code , paper )...',
           description: "",
           section: "News",},{
         id: 'social-email',
