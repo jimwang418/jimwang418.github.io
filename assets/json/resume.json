@@ -2,23 +2,23 @@
   "basics": {
     "name": "Junxiang (Jim) Wang",
     "label": "Robotics Researcher",
-    "image": "",
+    "image": "profile_pic.jpg",
     "email": "junxiang@cmu.edu",
     "phone": "(667) 910-4102",
     "url": "https://jimwang418.github.io/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "summary": "A second-year Robotics PhD student at CMU",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "5000 Forbes Av",
+      "postalCode": "PA 15213",
+      "city": "Pittsburgh",
       "countryCode": "US",
-      "region": "California"
+      "region": "Pennsylvania"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "wang_junxiang_",
+        "url": "https://x.com/wang_junxiang_"
       }
     ]
   },
@@ -47,24 +47,53 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Carnegie Mellon University",
+      "location": "Pittsburgh, PA",
+      "url": "https://www.cmu.edu/",
+      "area": "Robotics",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2024-08-26",
+      "endDate": "2029-05-01",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": []
+    },
+    {
+      "institution": "Johns Hopkins University",
+      "location": "Baltimore, MD",
+      "url": "https://www.jhu.edu/",
+      "area": "Robotics",
+      "studyType": "MSE",
+      "startDate": "2023-08-26",
+      "endDate": "2024-05-14",
+      "score": "9",
+      "courses": []
+    },
+    {
+      "institution": "Johns Hopkins University",
+      "location": "Baltimore, MD",
+      "url": "https://www.jhu.edu/",
+      "area": "Mechanical Engineering",
+      "studyType": "BS",
+      "startDate": "2019-08-26",
+      "endDate": "2023-05-14",
+      "score": "8",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Best Student Paper",
+      "date": "2022-04-15",
+      "awarder": "ISMR 2022",
+      "url": "https://robomed.gatech.edu/2022-welcome/",
+      "summary": "The Best Student Paper Award is awarded to the best paper presentation with student first-author at International Symposium on Medical Robotics (ISMR) 2022."
+    },
+    {
+      "title": "Honorable Mention",
+      "date": "2022-04-15",
+      "awarder": "CRA",
+      "url": "https://robomed.gatech.edu/2022-welcome/",
+      "summary": "The Best Student Paper Award is awarded to the best paper presentation with student first-author at International Symposium on Medical Robotics (ISMR) 2022."
     }
   ],
   "certificates": [
@@ -151,13 +180,13 @@
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "English",
+      "fluency": "Native",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Chinese (Mandarin)",
+      "fluency": "Native",
       "icon": ""
     }
   ],
