@@ -31,6 +31,9 @@ ninja.data = [{
           section: "News",},{id: "news-cori-was-accepted-to-corl-2025-in-seoul-korea-code-paper",
           title: 'CoRI was accepted to CoRL 2025 in Seoul, Korea! (code , paper )...',
           description: "",
+          section: "News",},{id: "news-bridge-our-bidirectional-human-robot-communication-system-was-accepted-to-hri-2026-in-edinburgh-uk-paper-code-coming-soon",
+          title: 'BRIDGE, our bidirectional human-robot communication system, was accepted to HRI 2026 in Edinburgh,...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
