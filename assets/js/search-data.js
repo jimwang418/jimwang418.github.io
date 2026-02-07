@@ -34,6 +34,9 @@ ninja.data = [{
           section: "News",},{id: "news-bridge-our-bidirectional-human-robot-communication-system-was-accepted-to-hri-2026-in-edinburgh-uk-paper-code-coming-soon",
           title: 'BRIDGE, our bidirectional human-robot communication system, was accepted to HRI 2026 in Edinburgh,...',
           description: "",
+          section: "News",},{id: "news-our-voice-assistant-study-with-older-adults-was-published-in-taccess",
+          title: 'Our voice assistant study with older adults was published in TACCESS!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
