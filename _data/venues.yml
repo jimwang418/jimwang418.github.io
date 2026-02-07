@@ -28,3 +28,7 @@
 "HRI 2026":
   url: https://humanrobotinteraction.org/2026/
   color: "#2C4363"
+
+"TACCESS":
+  url: https://dl.acm.org/journal/taccess
+  color: "#0B5B6E"
