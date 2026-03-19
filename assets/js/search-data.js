@@ -37,6 +37,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-voice-assistant-study-with-older-adults-was-published-in-taccess",
           title: 'Our voice assistant study with older adults was published in TACCESS!',
           description: "",
+          section: "News",},{id: "news-bridge-was-nominated-for-best-paper-award-at-hri-2026",
+          title: 'BRIDGE was nominated for Best Paper Award at HRI 2026!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
