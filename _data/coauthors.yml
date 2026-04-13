@@ -2,6 +2,18 @@
   - firstname: ["Zackory", "Z."]
     url: https://zackory.com/
 
+"huang":
+  - firstname: ["Chien-Ming", "C.-M."]
+    url: https://www.cs.jhu.edu/~cmhuang/
+
+"iordachita":
+  - firstname: ["Iulian", "I.", "I. I.", "Iulian Ioan"]
+    url: https://amiro.lcsr.jhu.edu/iulianiordachita/
+
+"ishida":
+  - firstname: ["Hisashi", "H."]
+    url: https://hisashiishida.github.io/
+
 "kazanzides":
   - firstname: ["Peter", "P."]
     url: https://smarts.lcsr.jhu.edu/people/peter-kazanzides/
@@ -10,29 +22,29 @@
   - firstname: ["Amama", "A."]
     url: https://amamamahmood.github.io/
 
-"iordachita":
-  - firstname: ["Iulian", "I.", "I. I.", "Iulian Ioan"]
-    url: https://amiro.lcsr.jhu.edu/iulianiordachita/
+"millan":
+  - firstname: ["Julian", "J."]
+    url: https://julian-millan.github.io/
 
-"huang":
-  - firstname: ["Chien-Ming", "C.-M."]
-    url: https://www.cs.jhu.edu/~cmhuang/
-
-"yao":
-  - firstname: ["Bingsheng", "B."]
-    url: https://www.bingshengyao.com/
+"pechuk":
+  - firstname: ["Nir", "N."]
+    url: https://www.github.com/nirpechuk/
 
 "wang":
   - firstname: ["Dakuo", "D."]
     url: https://www.dakuowang.com/
 
-"ishida":
-  - firstname: ["Hisashi", "H."]
-    url: https://hisashiishida.github.io/
+  - firstname: ["Cindy", "C."]
+    url: https://www.linkedin.com/in/cindyxindiwang/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"wu":
+- firstname: ["Tiancheng", "T."]
+  url: https://tonybest318.github.io/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"xu":
+  - firstname: ["Xinwen", "X."]
+    url: https://xinwenx.github.io/xxw/
+
+"yao":
+  - firstname: ["Bingsheng", "B."]
+    url: https://www.bingshengyao.com/
