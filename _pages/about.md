@@ -23,9 +23,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-**Hi! I'm Jim!** I'm a second-year Ph.D. student at the [Robotics Institute](https://www.ri.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/), advised by Prof. [Zackory Erickson](https://zackory.com/). Prior to joining RI, I obtained my B.S. in Mechanical Engineering and M.S.E. in Robotics from [Johns Hopkins University](https://www.jhu.edu/), where I was fortunate to work with Prof. [Peter Kazanzides](https://smarts.lcsr.jhu.edu/people/peter-kazanzides/), Prof. [Chien-Ming Huang](https://www.cs.jhu.edu/~cmhuang/), and Prof. [Iulian Iordachita](https://amiro.lcsr.jhu.edu/iulianiordachita/).
+**Hi! I'm Jim!** I'm a third-year Ph.D. student at the [Robotics Institute](https://www.ri.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/), advised by Prof. [Zackory Erickson](https://zackory.com/). My research focuses on human-robot interaction, specifically on physical interactions and natural-language communication. 
 
-I am broadly interested in human-robot interaction. Specifically, my work focuses on natural-language communication between humans and agents, as well as physical interactions between humans and robots.
+Prior to joining RI, I obtained my B.S. in Mechanical Engineering and M.S.E. in Robotics from [Johns Hopkins University](https://www.jhu.edu/), where I was fortunate to work with Prof. [Peter Kazanzides](https://smarts.lcsr.jhu.edu/people/peter-kazanzides/), Prof. [Chien-Ming Huang](https://www.cs.jhu.edu/~cmhuang/), and Prof. [Iulian Iordachita](https://amiro.lcsr.jhu.edu/iulianiordachita/).
 
 <!-- In my free time, I enjoy running, tennis, skiing, and photography. -->
 
