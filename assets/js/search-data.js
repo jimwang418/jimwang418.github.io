@@ -40,6 +40,9 @@ ninja.data = [{
           section: "News",},{id: "news-bridge-was-nominated-for-best-paper-award-at-hri-2026",
           title: 'BRIDGE was nominated for Best Paper Award at HRI 2026!',
           description: "",
+          section: "News",},{id: "news-i-started-my-internship-at-dexmate",
+          title: 'I started my internship at Dexmate!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
